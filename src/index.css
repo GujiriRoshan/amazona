@@ -69,13 +69,16 @@ a.brand{
   font-weight: bold;
 }
 .row{
-  display:flex;
+   display:flex;
    flex-wrap: wrap; 
    justify-content: space-between;
    align-items: center;
 }
 .row.center{
   justify-content: center;
+}
+.row.top{
+  align-items: flex-start;
 }
 
 /* Images */
@@ -109,4 +112,7 @@ img.medium{
 .rating span{
   color:#f0c040;
   margin:0.1rem
+}
+.rating span:last-child{
+  color:#404040
 }
